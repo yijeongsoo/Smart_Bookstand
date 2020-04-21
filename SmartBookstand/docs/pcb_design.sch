@@ -1,0 +1,1050 @@
+EESchema Schematic File Version 4
+LIBS:CAD-cache
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "Raspberry Pi HAT"
+Date ""
+Rev "A"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED_RGBA D2
+U 1 1 5DE16FF0
+P 2050 3000
+F 0 "D2" H 2050 3497 50  0000 C CNN
+F 1 "LED_RGBA" H 2050 3406 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins" H 2050 2950 50  0001 C CNN
+F 3 "~" H 2050 2950 50  0001 C CNN
+	1    2050 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_PHOTO R_Photo1
+U 1 1 5DE39ADD
+P 8550 9650
+F 0 "R_Photo1" H 8650 9700 50  0000 L CNN
+F 1 "???" H 8750 9600 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 8600 9400 50  0001 L CNN
+F 3 "~" H 8550 9600 50  0001 C CNN
+	1    8550 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5DE5EFA3
+P 2600 1800
+F 0 "R2" V 2700 1800 50  0000 C CNN
+F 1 "1K" V 2600 1800 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 1800 50  0001 C CNN
+F 3 "~" H 2600 1800 50  0001 C CNN
+	1    2600 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5DE5F31B
+P 2600 2000
+F 0 "R3" V 2700 2000 50  0000 C CNN
+F 1 "1K" V 2600 2000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 2000 50  0001 C CNN
+F 3 "~" H 2600 2000 50  0001 C CNN
+	1    2600 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5DE5FF40
+P 2600 3200
+F 0 "R6" V 2700 3200 50  0000 C CNN
+F 1 "1K" V 2600 3200 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 3200 50  0001 C CNN
+F 3 "~" H 2600 3200 50  0001 C CNN
+	1    2600 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Analog_ADC:MCP3008 U4
+U 1 1 5DE77974
+P 8350 6600
+F 0 "U4" H 8400 7450 50  0000 C CNN
+F 1 "MCP3008" H 8400 7350 50  0000 C CNN
+F 2 "MCU-MCP3008-I_P_DIP16-7.62MM_:DIP16-2.54-19.2X7.62MM" H 8450 6700 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf" H 8450 6700 50  0001 C CNN
+	1    8350 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAD:LinearPotentiometer_copy D9
+U 1 1 5DF1C5E5
+P 7950 2400
+F 0 "D9" H 8378 2363 50  0000 L CNN
+F 1 "LinearPotentiometer_copy" H 8378 2272 50  0000 L CNN
+F 2 "Potentiometer_THT:Potentiometer_ACP_CA9-H2,5_Horizontal" H 8100 1500 50  0001 C CNN
+F 3 "" H 8100 1500 50  0001 C CNN
+	1    7950 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAD:LinearPotentiometer_copy D12
+U 1 1 5DF20F96
+P 14000 2400
+F 0 "D12" H 14428 2363 50  0000 L CNN
+F 1 "LinearPotentiometer_copy" H 14428 2272 50  0000 L CNN
+F 2 "Potentiometer_THT:Potentiometer_ACP_CA9-H2,5_Horizontal" H 14150 1500 50  0001 C CNN
+F 3 "" H 14150 1500 50  0001 C CNN
+	1    14000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAD:LinearPotentiometer_copy D10
+U 1 1 5DF1D41B
+P 10000 2400
+F 0 "D10" H 10428 2363 50  0000 L CNN
+F 1 "LinearPotentiometer_copy" H 10428 2272 50  0000 L CNN
+F 2 "Potentiometer_THT:Potentiometer_ACP_CA9-H2,5_Horizontal" H 10150 1500 50  0001 C CNN
+F 3 "" H 10150 1500 50  0001 C CNN
+	1    10000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAD:LinearPotentiometer_copy D11
+U 1 1 5DF1F193
+P 12000 2400
+F 0 "D11" H 12428 2363 50  0000 L CNN
+F 1 "LinearPotentiometer_copy" H 12428 2272 50  0000 L CNN
+F 2 "Potentiometer_THT:Potentiometer_ACP_CA9-H2,5_Horizontal" H 12150 1500 50  0001 C CNN
+F 3 "" H 12150 1500 50  0001 C CNN
+	1    12000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5DE58336
+P 2600 1600
+F 0 "R1" V 2700 1600 50  0000 C CNN
+F 1 "470" V 2600 1600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 1600 50  0001 C CNN
+F 3 "~" H 2600 1600 50  0001 C CNN
+	1    2600 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_RGBA D1
+U 1 1 5DE14958
+P 2050 1800
+F 0 "D1" H 2050 2297 50  0000 C CNN
+F 1 "LED_RGBA" H 2050 2206 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins" H 2050 1750 50  0001 C CNN
+F 3 "~" H 2050 1750 50  0001 C CNN
+	1    2050 1800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1600 2450 1600
+Wire Wire Line
+	2250 1800 2450 1800
+Wire Wire Line
+	2250 2000 2450 2000
+$Comp
+L Device:R R8
+U 1 1 5DF16F1F
+P 2600 4050
+F 0 "R8" V 2700 4050 50  0000 C CNN
+F 1 "1K" V 2600 4050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 4050 50  0001 C CNN
+F 3 "~" H 2600 4050 50  0001 C CNN
+	1    2600 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5DF16F37
+P 2600 3850
+F 0 "R7" V 2700 3850 50  0000 C CNN
+F 1 "470" V 2600 3850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 3850 50  0001 C CNN
+F 3 "~" H 2600 3850 50  0001 C CNN
+	1    2600 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 3850 2450 3850
+Wire Wire Line
+	2250 4050 2450 4050
+Wire Wire Line
+	2250 2800 2450 2800
+Wire Wire Line
+	2250 3000 2450 3000
+Wire Wire Line
+	2250 3200 2450 3200
+$Comp
+L Device:R R17
+U 1 1 5DF24745
+P 2600 7250
+F 0 "R17" V 2700 7250 50  0000 C CNN
+F 1 "1K" V 2600 7250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 7250 50  0001 C CNN
+F 3 "~" H 2600 7250 50  0001 C CNN
+	1    2600 7250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 5DF2474B
+P 2600 7450
+F 0 "R18" V 2700 7450 50  0000 C CNN
+F 1 "1K" V 2600 7450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 7450 50  0001 C CNN
+F 3 "~" H 2600 7450 50  0001 C CNN
+	1    2600 7450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 5DF24751
+P 2600 7050
+F 0 "R16" V 2700 7050 50  0000 C CNN
+F 1 "470" V 2600 7050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 7050 50  0001 C CNN
+F 3 "~" H 2600 7050 50  0001 C CNN
+	1    2600 7050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_RGBA D6
+U 1 1 5DF24757
+P 2050 7250
+F 0 "D6" H 2050 7747 50  0000 C CNN
+F 1 "LED_RGBA" H 2050 7656 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins" H 2050 7200 50  0001 C CNN
+F 3 "~" H 2050 7200 50  0001 C CNN
+	1    2050 7250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 7050 2450 7050
+Wire Wire Line
+	2250 7250 2450 7250
+Wire Wire Line
+	2250 7450 2450 7450
+$Comp
+L Device:R R19
+U 1 1 5DF29A87
+P 2600 8200
+F 0 "R19" V 2700 8200 50  0000 C CNN
+F 1 "470" V 2600 8200 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 8200 50  0001 C CNN
+F 3 "~" H 2600 8200 50  0001 C CNN
+	1    2600 8200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 5DF29A8D
+P 2600 8400
+F 0 "R20" V 2700 8400 50  0000 C CNN
+F 1 "1K" V 2600 8400 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 8400 50  0001 C CNN
+F 3 "~" H 2600 8400 50  0001 C CNN
+	1    2600 8400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 5DF29A93
+P 2600 8600
+F 0 "R21" V 2700 8600 50  0000 C CNN
+F 1 "1K" V 2600 8600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 8600 50  0001 C CNN
+F 3 "~" H 2600 8600 50  0001 C CNN
+	1    2600 8600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 5DF29A99
+P 2600 9500
+F 0 "R23" V 2700 9500 50  0000 C CNN
+F 1 "1K" V 2600 9500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 9500 50  0001 C CNN
+F 3 "~" H 2600 9500 50  0001 C CNN
+	1    2600 9500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 5DF29A9F
+P 2600 9700
+F 0 "R24" V 2700 9700 50  0000 C CNN
+F 1 "1K" V 2600 9700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 9700 50  0001 C CNN
+F 3 "~" H 2600 9700 50  0001 C CNN
+	1    2600 9700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 5DF29AA5
+P 2600 9300
+F 0 "R22" V 2700 9300 50  0000 C CNN
+F 1 "470" V 2600 9300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 9300 50  0001 C CNN
+F 3 "~" H 2600 9300 50  0001 C CNN
+	1    2600 9300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_RGBA D8
+U 1 1 5DF29AAB
+P 2050 9500
+F 0 "D8" H 2050 9997 50  0000 C CNN
+F 1 "LED_RGBA" H 2050 9906 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins" H 2050 9450 50  0001 C CNN
+F 3 "~" H 2050 9450 50  0001 C CNN
+	1    2050 9500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 9300 2450 9300
+Wire Wire Line
+	2250 9500 2450 9500
+Wire Wire Line
+	2250 9700 2450 9700
+Wire Wire Line
+	2250 8200 2450 8200
+Wire Wire Line
+	2250 8400 2450 8400
+Wire Wire Line
+	2250 8600 2450 8600
+Wire Wire Line
+	1850 1800 1650 1800
+Wire Wire Line
+	1850 3000 1650 3000
+Wire Wire Line
+	1850 4050 1650 4050
+Wire Wire Line
+	8550 9500 8550 9250
+Wire Wire Line
+	8550 9250 8150 9250
+Connection ~ 8550 9250
+Wire Wire Line
+	8550 9250 8550 9150
+$Comp
+L Device:R R25
+U 1 1 5E0940B2
+P 8000 9250
+F 0 "R25" V 7900 9250 50  0000 C CNN
+F 1 "10K" V 8000 9250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 7930 9250 50  0001 C CNN
+F 3 "~" H 8000 9250 50  0001 C CNN
+	1    8000 9250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8100 2900 8100 3100
+Wire Wire Line
+	7800 2900 7800 3100
+Wire Wire Line
+	9850 2900 9850 3150
+Wire Wire Line
+	10150 2900 10150 3150
+Wire Wire Line
+	12150 2900 12150 3150
+Wire Wire Line
+	11850 2900 11850 3150
+Wire Wire Line
+	14150 2900 14150 3150
+Wire Wire Line
+	13850 2900 13850 3150
+$Comp
+L Device:R R27
+U 1 1 5E11F9BF
+P 8100 3250
+F 0 "R27" H 8170 3296 50  0000 L CNN
+F 1 "10K" H 8170 3205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 8030 3250 50  0001 C CNN
+F 3 "~" H 8100 3250 50  0001 C CNN
+	1    8100 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R29
+U 1 1 5E11FBCE
+P 9850 3300
+F 0 "R29" H 9650 3350 50  0000 L CNN
+F 1 "10K" H 9650 3250 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 9780 3300 50  0001 C CNN
+F 3 "~" H 9850 3300 50  0001 C CNN
+	1    9850 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R30
+U 1 1 5E11FF50
+P 10150 3300
+F 0 "R30" H 10220 3346 50  0000 L CNN
+F 1 "10K" H 10220 3255 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 10080 3300 50  0001 C CNN
+F 3 "~" H 10150 3300 50  0001 C CNN
+	1    10150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R32
+U 1 1 5E12015C
+P 11850 3300
+F 0 "R32" H 11650 3350 50  0000 L CNN
+F 1 "10K" H 11650 3250 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 11780 3300 50  0001 C CNN
+F 3 "~" H 11850 3300 50  0001 C CNN
+	1    11850 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R33
+U 1 1 5E120578
+P 12150 3300
+F 0 "R33" H 12220 3346 50  0000 L CNN
+F 1 "10K" H 12220 3255 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 12080 3300 50  0001 C CNN
+F 3 "~" H 12150 3300 50  0001 C CNN
+	1    12150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R35
+U 1 1 5E1206F5
+P 13850 3300
+F 0 "R35" H 13650 3350 50  0000 L CNN
+F 1 "10K" H 13650 3250 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 13780 3300 50  0001 C CNN
+F 3 "~" H 13850 3300 50  0001 C CNN
+	1    13850 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R36
+U 1 1 5E120AB6
+P 14150 3300
+F 0 "R36" H 14220 3346 50  0000 L CNN
+F 1 "10K" H 14220 3255 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 14080 3300 50  0001 C CNN
+F 3 "~" H 14150 3300 50  0001 C CNN
+	1    14150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 5E1A1AB5
+P 7950 3950
+F 0 "R28" V 7850 3850 50  0000 L CNN
+F 1 "100K" V 7950 3850 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 7880 3950 50  0001 C CNN
+F 3 "~" H 7950 3950 50  0001 C CNN
+	1    7950 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R31
+U 1 1 5E1A2321
+P 10000 3950
+F 0 "R31" V 9900 3850 50  0000 L CNN
+F 1 "100K" V 10000 3850 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 9930 3950 50  0001 C CNN
+F 3 "~" H 10000 3950 50  0001 C CNN
+	1    10000 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R34
+U 1 1 5E1A2822
+P 12000 3950
+F 0 "R34" V 11900 3850 50  0000 L CNN
+F 1 "100K" V 12000 3850 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 11930 3950 50  0001 C CNN
+F 3 "~" H 12000 3950 50  0001 C CNN
+	1    12000 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R37
+U 1 1 5E1A2CB2
+P 14000 3950
+F 0 "R37" V 13900 3850 50  0000 L CNN
+F 1 "100K" V 14000 3850 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 13930 3950 50  0001 C CNN
+F 3 "~" H 14000 3950 50  0001 C CNN
+	1    14000 3950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 6350 2450 6350
+Wire Wire Line
+	2250 6150 2450 6150
+Wire Wire Line
+	2250 5950 2450 5950
+Wire Wire Line
+	2250 5300 2450 5300
+Wire Wire Line
+	2250 5100 2450 5100
+Wire Wire Line
+	2250 4900 2450 4900
+$Comp
+L Device:LED_RGBA D4
+U 1 1 5DF2473C
+P 2050 5100
+F 0 "D4" H 2050 5597 50  0000 C CNN
+F 1 "LED_RGBA" H 2050 5506 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins" H 2050 5050 50  0001 C CNN
+F 3 "~" H 2050 5050 50  0001 C CNN
+	1    2050 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5DF24736
+P 2600 4900
+F 0 "R10" V 2700 4900 50  0000 C CNN
+F 1 "470" V 2600 4900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 4900 50  0001 C CNN
+F 3 "~" H 2600 4900 50  0001 C CNN
+	1    2600 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5DF24730
+P 2600 6350
+F 0 "R15" V 2700 6350 50  0000 C CNN
+F 1 "1K" V 2600 6350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 6350 50  0001 C CNN
+F 3 "~" H 2600 6350 50  0001 C CNN
+	1    2600 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5DF2472A
+P 2600 6150
+F 0 "R14" V 2700 6150 50  0000 C CNN
+F 1 "1K" V 2600 6150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 6150 50  0001 C CNN
+F 3 "~" H 2600 6150 50  0001 C CNN
+	1    2600 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5DF24724
+P 2600 5950
+F 0 "R13" V 2700 5950 50  0000 C CNN
+F 1 "470" V 2600 5950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 5950 50  0001 C CNN
+F 3 "~" H 2600 5950 50  0001 C CNN
+	1    2600 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5DF2471E
+P 2600 5300
+F 0 "R12" V 2700 5300 50  0000 C CNN
+F 1 "1K" V 2600 5300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 5300 50  0001 C CNN
+F 3 "~" H 2600 5300 50  0001 C CNN
+	1    2600 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5DF24718
+P 2600 5100
+F 0 "R11" V 2700 5100 50  0000 C CNN
+F 1 "1K" V 2600 5100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 5100 50  0001 C CNN
+F 3 "~" H 2600 5100 50  0001 C CNN
+	1    2600 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_RGBA D5
+U 1 1 5DF24712
+P 2050 6150
+F 0 "D5" H 2050 6647 50  0000 C CNN
+F 1 "LED_RGBA" H 2050 6556 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins" H 2050 6100 50  0001 C CNN
+F 3 "~" H 2050 6100 50  0001 C CNN
+	1    2050 6150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 4250 2450 4250
+$Comp
+L Device:LED_RGBA D3
+U 1 1 5DF16F3D
+P 2050 4050
+F 0 "D3" H 2050 4547 50  0000 C CNN
+F 1 "LED_RGBA" H 2050 4456 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins" H 2050 4000 50  0001 C CNN
+F 3 "~" H 2050 4000 50  0001 C CNN
+	1    2050 4050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5DF16F25
+P 2600 4250
+F 0 "R9" V 2700 4250 50  0000 C CNN
+F 1 "1K" V 2600 4250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 4250 50  0001 C CNN
+F 3 "~" H 2600 4250 50  0001 C CNN
+	1    2600 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5DE5FF3A
+P 2600 3000
+F 0 "R5" V 2700 3000 50  0000 C CNN
+F 1 "1K" V 2600 3000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 3000 50  0001 C CNN
+F 3 "~" H 2600 3000 50  0001 C CNN
+	1    2600 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5DE5FF34
+P 2600 2800
+F 0 "R4" V 2700 2800 50  0000 C CNN
+F 1 "470" V 2600 2800 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 2800 50  0001 C CNN
+F 3 "~" H 2600 2800 50  0001 C CNN
+	1    2600 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 5100 1650 5100
+Wire Wire Line
+	1650 5100 1650 5200
+Wire Wire Line
+	1850 6150 1700 6150
+Wire Wire Line
+	1700 6150 1700 6300
+Wire Wire Line
+	1850 7250 1700 7250
+Wire Wire Line
+	1700 7250 1700 7400
+$Comp
+L Device:LED_RGBA D7
+U 1 1 5DF29A81
+P 2050 8400
+F 0 "D7" H 2050 8897 50  0000 C CNN
+F 1 "LED_RGBA" H 2050 8806 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins" H 2050 8350 50  0001 C CNN
+F 3 "~" H 2050 8350 50  0001 C CNN
+	1    2050 8400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 8400 1700 8400
+Wire Wire Line
+	1700 8400 1700 8550
+Wire Wire Line
+	1850 9500 1650 9500
+Wire Wire Line
+	1650 9500 1650 9800
+Text Label 2750 1600 0    50   ~ 0
+U1_QA
+Text Label 4050 5600 2    50   ~ 0
+U1_QA
+Text Label 2750 1800 0    50   ~ 0
+U2_QA
+Text Label 2750 2000 0    50   ~ 0
+U3_QA
+Text Label 2750 2800 0    50   ~ 0
+U1_QB
+Text Label 2750 3000 0    50   ~ 0
+U2_QB
+Text Label 2750 3200 0    50   ~ 0
+U3_QB
+Text Label 2750 3850 0    50   ~ 0
+U1_QC
+Text Label 2750 4050 0    50   ~ 0
+U2_QC
+Text Label 2750 4250 0    50   ~ 0
+U3_QC
+Text Label 2750 4900 0    50   ~ 0
+U1_QD
+Text Label 2750 5100 0    50   ~ 0
+U2_QD
+Text Label 2750 5300 0    50   ~ 0
+U3_QD
+Text Label 2750 5950 0    50   ~ 0
+U1_QE
+Text Label 2750 6150 0    50   ~ 0
+U2_QE
+Text Label 2750 6350 0    50   ~ 0
+U3_QE
+Text Label 2750 7050 0    50   ~ 0
+U1_QF
+Text Label 2750 7250 0    50   ~ 0
+U2_QF
+Text Label 2750 7450 0    50   ~ 0
+U3_QF
+Text Label 2750 8200 0    50   ~ 0
+U1_QG
+Text Label 2750 8400 0    50   ~ 0
+U2_QG
+Text Label 2750 8600 0    50   ~ 0
+U3_QG
+Text Label 2750 9300 0    50   ~ 0
+U1_QH
+Text Label 2750 9500 0    50   ~ 0
+U2_QH
+Text Label 2750 9700 0    50   ~ 0
+U3_QH
+Text Label 4050 4900 2    50   ~ 0
+U1_QH
+Text Label 4050 5000 2    50   ~ 0
+U1_QG
+Text Label 4050 5100 2    50   ~ 0
+U1_QF
+Text Label 4050 5200 2    50   ~ 0
+U1_QE
+Text Label 4050 5300 2    50   ~ 0
+U1_QD
+Text Label 4050 5400 2    50   ~ 0
+U1_QC
+Text Label 4050 5500 2    50   ~ 0
+U1_QB
+$Comp
+L 74xx:74HC595 U2
+U 1 1 5DEEC927
+P 4450 7300
+F 0 "U2" H 4700 8100 50  0000 C CNN
+F 1 "74HC595" H 4750 7950 50  0000 C CNN
+F 2 "MCU-MCP3008-I_P_DIP16-7.62MM_:DIP16-2.54-19.2X7.62MM" H 4450 7300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 4450 7300 50  0001 C CNN
+	1    4450 7300
+	-1   0    0    1   
+$EndComp
+Text Label 4050 7000 2    50   ~ 0
+U2_QH
+Text Label 4050 7100 2    50   ~ 0
+U2_QG
+Text Label 4050 7200 2    50   ~ 0
+U2_QF
+Text Label 4050 7300 2    50   ~ 0
+U2_QE
+Text Label 4050 7400 2    50   ~ 0
+U2_QD
+Text Label 4050 7500 2    50   ~ 0
+U2_QC
+Text Label 4050 7600 2    50   ~ 0
+U2_QB
+Text Label 4050 7700 2    50   ~ 0
+U2_QA
+Text Label 4050 9850 2    50   ~ 0
+U3_QA
+Text Label 4050 9750 2    50   ~ 0
+U3_QB
+Text Label 4050 9650 2    50   ~ 0
+U3_QC
+Text Label 4050 9550 2    50   ~ 0
+U3_QD
+Text Label 4050 9450 2    50   ~ 0
+U3_QE
+Text Label 4050 9350 2    50   ~ 0
+U3_QF
+Text Label 4050 9250 2    50   ~ 0
+U3_QG
+Text Label 4050 9150 2    50   ~ 0
+U3_QH
+Text Label 4850 7200 0    50   ~ 0
+GPIO11
+Text Label 4850 9350 0    50   ~ 0
+GPIO26
+Text Label 4850 9650 0    50   ~ 0
+GPIO21
+Text Label 4850 9850 0    50   ~ 0
+GPIO20
+Text Label 4850 7700 0    50   ~ 0
+GPIO20
+Text Label 4850 7500 0    50   ~ 0
+GPIO21
+Text Label 4850 7700 0    50   ~ 0
+GPIO20
+Text Label 4850 5600 0    50   ~ 0
+GPIO20
+Text Label 4850 5100 0    50   ~ 0
+GPIO12
+Wire Wire Line
+	9550 3800 10000 3800
+Connection ~ 10000 3800
+Text Label 7350 3800 2    50   ~ 0
+ADC_CH1
+Text Label 9550 3800 2    50   ~ 0
+ADC_CH2
+Wire Wire Line
+	12000 3800 11250 3800
+Connection ~ 12000 3800
+Text Label 11250 3800 2    50   ~ 0
+ADC_CH3
+Connection ~ 7950 3800
+Wire Wire Line
+	7350 3800 7950 3800
+Wire Wire Line
+	7950 2900 7950 3800
+Wire Wire Line
+	10000 2900 10000 3800
+Wire Wire Line
+	12000 2900 12000 3800
+$Comp
+L Device:R R26
+U 1 1 5E11EF1F
+P 7800 3250
+F 0 "R26" H 7600 3300 50  0000 L CNN
+F 1 "10K" H 7600 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 7730 3250 50  0001 C CNN
+F 3 "~" H 7800 3250 50  0001 C CNN
+	1    7800 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14000 2900 14000 3750
+Wire Wire Line
+	14000 3750 13300 3750
+Connection ~ 14000 3750
+Wire Wire Line
+	14000 3750 14000 3800
+Text Label 13300 3750 2    50   ~ 0
+ADC_CH4
+Text Label 8550 9800 3    50   ~ 0
+ADC_CH0
+Text Label 7750 6300 2    50   ~ 0
+ADC_CH0
+Text Label 7750 6400 2    50   ~ 0
+ADC_CH1
+Text Label 7750 6500 2    50   ~ 0
+ADC_CH2
+Text Label 7750 6600 2    50   ~ 0
+ADC_CH3
+Text Label 7750 6700 2    50   ~ 0
+ADC_CH4
+Text Label 8950 6500 0    50   ~ 0
+GPIO11
+Text Label 8950 6600 0    50   ~ 0
+GPIO10
+Text Label 8950 6700 0    50   ~ 0
+GPIO09
+Text Label 8950 6800 0    50   ~ 0
+GPIO18
+Text Label 8550 7200 3    50   ~ 0
+GND
+Text Label 4850 7100 0    50   ~ 0
+GND
+Text Label 10150 3450 3    50   ~ 0
+GND
+Text Label 8100 3400 3    50   ~ 0
+GND
+Text Label 12150 3450 3    50   ~ 0
+GND
+Text Label 14150 3450 3    50   ~ 0
+GND
+Text Label 13850 3450 3    50   ~ 0
+3.3V
+Text Label 11850 3450 3    50   ~ 0
+3.3V
+Text Label 9850 3400 3    50   ~ 0
+3.3V
+Text Label 7800 3400 3    50   ~ 0
+3.3V
+Text Label 8550 6100 1    50   ~ 0
+3.3V
+Text Label 4450 10050 3    50   ~ 0
+3.3V
+Text Label 8250 6100 1    50   ~ 0
+3.3V
+Text Label 7950 4100 3    50   ~ 0
+3.3V
+Text Label 10000 4100 3    50   ~ 0
+3.3V
+Text Label 12000 4100 3    50   ~ 0
+3.3V
+Text Label 14000 4100 3    50   ~ 0
+3.3V
+Text Label 4850 7400 0    50   ~ 0
+3.3V
+Text Label 4450 7900 3    50   ~ 0
+3.3V
+Text Label 4450 5800 3    50   ~ 0
+3.3V
+Text Label 4850 5400 0    50   ~ 0
+GPIO21
+$Comp
+L 74xx:74HC595 U1
+U 1 1 5DEE407C
+P 4450 5200
+F 0 "U1" H 4700 6000 50  0000 C CNN
+F 1 "74HC595" H 4750 5850 50  0000 C CNN
+F 2 "MCU-MCP3008-I_P_DIP16-7.62MM_:DIP16-2.54-19.2X7.62MM" H 4450 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 4450 5200 50  0001 C CNN
+	1    4450 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74HC595 U3
+U 1 1 5DEEB1E7
+P 4450 9450
+F 0 "U3" H 4700 10250 50  0000 C CNN
+F 1 "74HC595" H 4750 10100 50  0000 C CNN
+F 2 "MCU-MCP3008-I_P_DIP16-7.62MM_:DIP16-2.54-19.2X7.62MM" H 4450 9450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 4450 9450 50  0001 C CNN
+	1    4450 9450
+	-1   0    0    1   
+$EndComp
+Text Label 4850 9550 0    50   ~ 0
+3.3V
+Text Label 4450 6600 0    50   ~ 0
+GND
+Text Label 4050 6800 2    50   ~ 0
+GND
+Text Label 4450 8750 1    50   ~ 0
+GND
+Text Label 4850 9250 0    50   ~ 0
+GND
+Text Label 4050 8950 2    50   ~ 0
+GND
+Text Label 4850 5300 0    50   ~ 0
+3.3V
+Text Label 4850 5000 0    50   ~ 0
+GND
+Text Label 4450 4500 1    50   ~ 0
+GND
+Text Label 4050 4700 2    50   ~ 0
+GND
+Text Label 8550 9150 1    50   ~ 0
+3.3V
+Text Label 7850 9250 2    50   ~ 0
+GND
+Text Label 1650 1800 3    50   ~ 0
+GND
+Text Label 1650 3000 3    50   ~ 0
+GND
+Text Label 1650 4050 3    50   ~ 0
+GND
+Text Label 1650 5200 3    50   ~ 0
+GND
+Text Label 1700 6300 3    50   ~ 0
+GND
+Text Label 1700 7400 3    50   ~ 0
+GND
+Text Label 1700 8550 3    50   ~ 0
+GND
+Text Label 1650 9800 3    50   ~ 0
+GND
+NoConn ~ 7750 6800
+NoConn ~ 7750 6900
+NoConn ~ 7750 7000
+Text Label 8250 7200 3    50   ~ 0
+GND
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J1
+U 1 1 5E43303C
+P 12550 6600
+F 0 "J1" H 12600 7717 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 12600 7626 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x20_P2.00mm_Vertical" H 12550 6600 50  0001 C CNN
+F 3 "~" H 12550 6600 50  0001 C CNN
+	1    12550 6600
+	1    0    0    -1  
+$EndComp
+Text Label 12350 5700 2    50   ~ 0
+3.3V
+Text Label 12850 5900 0    50   ~ 0
+GND
+Text Label 12350 6100 2    50   ~ 0
+GND
+Text Label 12850 6300 0    50   ~ 0
+GND
+Text Label 12850 6600 0    50   ~ 0
+GND
+Text Label 12350 6900 2    50   ~ 0
+GND
+Text Label 12850 7500 0    50   ~ 0
+GPIO20
+Text Label 12850 7600 0    50   ~ 0
+GPIO21
+Text Label 12850 7400 0    50   ~ 0
+GPIO16
+Text Label 12850 7300 0    50   ~ 0
+GND
+Text Label 12850 7200 0    50   ~ 0
+GPIO12
+Text Label 12850 7100 0    50   ~ 0
+GND
+Text Label 12850 7000 0    50   ~ 0
+ID_SC
+Text Label 12850 6900 0    50   ~ 0
+GPIO7
+Text Label 12850 6800 0    50   ~ 0
+GPIO8
+Text Label 12850 6700 0    50   ~ 0
+GPIO25
+Text Label 12350 5800 2    50   ~ 0
+GPIO2
+Text Label 12850 6500 0    50   ~ 0
+GPIO24
+Text Label 12850 6400 0    50   ~ 0
+GPIO23
+Text Label 12850 6200 0    50   ~ 0
+GPIO18
+Text Label 12850 6100 0    50   ~ 0
+GPIO15
+Text Label 12850 6000 0    50   ~ 0
+GPIO14
+Text Label 12850 5800 0    50   ~ 0
+5V
+Text Label 12850 5700 0    50   ~ 0
+5V
+Text Label 12350 5900 2    50   ~ 0
+GPIO3
+Text Label 12350 6000 2    50   ~ 0
+GPIO04
+Text Label 12350 6200 2    50   ~ 0
+GPIO17
+Text Label 12350 6300 2    50   ~ 0
+GPIO27
+Text Label 12350 6400 2    50   ~ 0
+GPIO22
+Text Label 12350 6500 2    50   ~ 0
+3.3V
+Text Label 12350 6600 2    50   ~ 0
+GPIO10
+Text Label 12350 6700 2    50   ~ 0
+GPIO9
+Text Label 12350 6800 2    50   ~ 0
+GPIO11
+Text Label 12350 7000 2    50   ~ 0
+ID_SD
+Text Label 12350 7100 2    50   ~ 0
+GPIO5
+Text Label 12350 7200 2    50   ~ 0
+GPIO6
+Text Label 12350 7300 2    50   ~ 0
+GPIO13
+Text Label 12350 7400 2    50   ~ 0
+GPIO19
+Text Label 12350 7500 2    50   ~ 0
+GPIO26
+Text Label 12350 7600 2    50   ~ 0
+GND
+$EndSCHEMATC

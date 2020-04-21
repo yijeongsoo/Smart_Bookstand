@@ -1,0 +1,42 @@
+README
+This is Jeong Soo Yi's Smart Bookstand Project.
+
+run "python setup.py install" to install the library.
+Then run python and call "import smartBookstand" to add the library.
+
+Sources:
+
+Lab 3 Manual
+https://newclasses.nyu.edu/access/lessonbuilder/item/29064512/group/3947d0f1-ec3b-401f-86fb-388be6a711b3/Lessons/3:%20Communication%20protocols/Lab%20materials/communication-1.pdf
+
+Lab 4 Manual
+https://newclasses.nyu.edu/access/lessonbuilder/item/29082660/group/3947d0f1-ec3b-401f-86fb-388be6a711b3/Lessons/4:%20Interfacing%20electronics/Lab%20material/interfacing.pdf
+
+<Shift Register>
+sn74hc595 Specification sheet: 
+https://newclasses.nyu.edu/access/lessonbuilder/item/29082665/group/3947d0f1-ec3b-401f-86fb-388be6a711b3/Lessons/4:%20Interfacing%20electronics/Lab%20material/sn74hc595.pdf
+Functions and connection take from lab 4 - shift_register.py
+
+<Photoresistor Functions>
+https://tutorials-raspberrypi.com/photoresistor-brightness-light-sensor-with-raspberry-pi/
+Functions to use photoresistor taken from adc.py from Lab 4
+
+<MCP3008>
+Source: https://github.com/adafruit/Adafruit_Python_MCP3008
+ADC function taken from lab 4
+MCP3008 Specification Sheet:
+https://newclasses.nyu.edu/access/lessonbuilder/item/29082687/group/3947d0f1-ec3b-401f-86fb-388be6a711b3/Lessons/4:%20Interfacing%20electronics/Lab%20material/adc-mcp3008.pdf
+
+
+<Linear Potentiometer>
+Fritzing diagram taken from: https://github.com/sparkfun/Fritzing_Parts/blob/master/products/08680_softpot_membrane_potentiometer_50mm.fzpz
+Specification taken from: https://www.adafruit.com/product/178
+SoftPot data sheet: https://cdn-shop.adafruit.com/product-files/178/SOFTPOT-DATA-SHEET-Rev-F3.pdf
+
+<SPI Transfer>
+Functions taken from Lab 3 and Lab 4
+Enabling SPI1
+https://raspberrypi.stackexchange.com/questions/73346/how-to-enable-spi1-and-spi0-at-the-same-time
+SPI1 pinout diagram
+https://pinout.xyz/pinout/spi
+
